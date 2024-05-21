@@ -1,0 +1,10 @@
+import math
+
+def calculate_sphere_volume(radius):
+    volume = (4/3) * math.pi * (radius ** 3)
+    return volume
+
+# Example usage:
+planet_radius = 6371  # Earth's radius in kilometers
+volume = calculate_sphere_volume(planet_radius)
+print(f"The volume of a sphere with radius {planet_radius} is {volume} cubic kilometers.")
